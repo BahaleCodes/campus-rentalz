@@ -7,11 +7,10 @@ const About = (props) => {
                 <div className='section-title'>
                     <h2>About Us</h2>
                 </div>
-                    <p>{props.data ? props.data.paragraph : 'loading...'}</p>
+                <p>{props.data ? props.data.paragraph : 'loading...'}</p>
                 <div className='Cnt'>
-                    <div className='img-cnt'>
-                        <img className='img' alt='About Page Pic' src={'img/Building1.jpeg'} loading='lazy' />
-                    </div>
+                    <img className='img-responsive' alt='About Page Pic' src={'img/Building1.jpeg'} loading='lazy' />
+
                     {/* <img src='img/intro-bg.jpg' className='img-responsive' alt='' /> */}
                     {/* <div className='abtContainer'>
                         <p>{props.data ? props.data.paragraph : 'loading...'}</p>

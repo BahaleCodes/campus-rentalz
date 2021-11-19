@@ -19,7 +19,6 @@ const Navigation = () => {
                         <span className="icon-bar"></span>{" "}
                         <span className="icon-bar"></span>{" "}
                     </button>
-
                     <a className="navbar-brand page-scroll" href="/">
                         <div className="nav-pic">
                             <img alt="Company Logo" className="img" src="img/logo.png" loading='lazy' />

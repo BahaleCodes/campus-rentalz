@@ -66,8 +66,8 @@ const Contact = (props) => {
                                     <div className="col-md-4 animated" data-animate="fadeInRight">
                                         <address>
                                             {/* <span><i className="fa fa-map-marker fa-lg"></i>Corner Witkoppen and Main, Fourways Sandton</span> */}
-                                            <span><i className="fa fa-phone fa-lg"></i> +27 68 098 5886</span>
-                                            <span><i className="fa fa-envelope-o fa-lg"></i> <a href="mailto:campusrentalsnw@gmail.com">campusrentalsnw&#64;gmail.com</a></span>
+                                            {/* <span><i className="fa fa-phone fa-lg"></i> 068 519 5360</span> */}
+                                            {/* <span><i className="fa fa-envelope-o fa-lg"></i> <a href="mailto:info@jaysonline.co.za">info&#64;jaysonline.co.za</a></span> */}
                                         </address>
                                     </div>
 

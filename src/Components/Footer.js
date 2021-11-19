@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = (props) => {
+const Footer = () => {
     return (
         <div id="footer" className="text-center">
             <div className="container">
@@ -17,12 +17,17 @@ const Footer = (props) => {
                     <div className='social'>
                         <ul>
                             <li>
-                                <a href={props.data ? props.data.facebook : '/'}>
+                                <a href={"https://www.linkedin.com/"} >
+                                    <i className='fa fa-linkedin'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href={"https://www.facebook.com/"}>
                                     <i className='fa fa-facebook'></i>
                                 </a>
                             </li>
                             <li>
-                                <a href={props.data ? props.data.instagram : '/'}>
+                                <a href={"https://www.instagram.com/"}>
                                     <i className='fa fa-instagram'></i>
                                 </a>
                             </li>
